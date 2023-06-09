@@ -1,0 +1,34 @@
+<model-viewer src="untitled.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1.23" exposure="0.52" shadow-softness="1" environment-image="aircraft_workshop_01_1k.hdr" auto-rotate camera-target="1.236e-7m 1.65m 0m" min-camera-orbit="-180deg auto auto" max-camera-orbit="180deg auto auto">
+    <button class="Hotspot" slot="hotspot-3" data-position="-1.386594818891929m 1.6127410917680893m 0.81229276614647m" data-normal="-0.8660853985761522m 0.003604827640819003m 0.4998830739191594m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Trappist-1g has atmosphere containing hundreds of bars of abiotic oxygen making it perfect for human buyers</div>
+    </button><button class="Hotspot" slot="hotspot-7" data-position="0.6084850370935538m 2.5620282430433816m 1.138226692164685m" data-normal="0.36285169361917163m 0.5955207562382334m 0.7167242686885532m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Trappist-1g has a thick ocean covering the planet which could provide conditions human buyers
+        </div>
+    </button><button class="Hotspot" slot="hotspot-8" data-position="-1.5901530279415501m 1.4541129938473616m 0.17296746755958928m" data-normal="-0.9908635448155961m -0.09856501244735763m 0.09205636249995633m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Trappist-1g is tidally locked. Buyers should be able to adapt to the extreme variations in light, temperature, and environmental conditions depending on their location</div>
+    </button><button class="Hotspot" slot="hotspot-9" data-position="0.9001700216457668m 0.7389754625786101m -1.008545679027205m" data-normal="0.5658271415127086m -0.556579754129215m -0.6083244391120743m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Due to one side constant radiation exposure, there is likely to be continuous cloud formations</div>
+    </button><button class="Hotspot" slot="hotspot-10" data-position="1.295495764999578m 0.9586147695960452m 0.6944924360246769m" data-normal="0.8089851046384912m -0.3721200116006829m 0.45504922529255787m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Trappist-1g is made of terrestrial surfaces like Mercury, Venus, Earth, and Mars,
+        </div>
+    </button><button class="Hotspot" slot="hotspot-11" data-position="0.027604025700946222m 2.0890444176263703m -1.5318036973465623m" data-normal="-0.008311255198663608m 0.3009916053812413m -0.9535905706995249m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Trappist-1g has constant fluctuating temperatures in different locations. Buyers should build heaters and coolers in their house
+        </div>
+    </button><button class="Hotspot" slot="hotspot-14" data-position="-0.1098304877801376m 1.8792472368426494m 1.579790162758052m" data-normal="-0.07687804932103012m 0.20535376284700038m 0.9756636703378737m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">if living on Trappist-1g buyers should adapt to the extreme cold. But due to tidal heating areas close to water will be warmer </div>
+    </button><button class="Hotspot" slot="hotspot-15" data-position="0.24843818689659422m 3.046328300533923m -0.6693388034712349m" data-normal="0.12196315165019968m 0.8941291144441953m -0.4308806288785675m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Trappist-1g surface gravity enables it to preserve volatile compounds necessary for sustaining life.
+        </div>
+    </button><button class="Hotspot" slot="hotspot-17" data-position="-0.28111363355314206m 3.1895420462888717m -0.013059169299474238m" data-normal="-0.17307038881377657m 0.9841252670970236m 0.03929502738337637m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">extensive ocean can provide a stable and nutrient-rich habitat for a variety of organisms. </div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
